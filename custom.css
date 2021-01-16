@@ -1,0 +1,108 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  background-color: black;
+}
+
+.jumbotron{
+	text-align: center;
+	background-image: url('../images/photo-1514483127413-f72f273478c3.jpg');
+	color: white;
+}
+
+.jumbotron h1{
+	font-family: 'Arvo',courier, serif;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.collapse a{
+	transition: ease-in-out color .15s;
+	color: black;
+}
+
+.btn-lg{
+	font-size: 30px;
+}
+
+.jumbotron p{
+	color: white;
+	margin-top: 30px;
+	font-weight: 1000;
+	padding: 0 50px;
+}
+
+.container{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.container h2, .container h3{
+	color: white;
+	font-family: 'Arvo',courier, serif;
+	text-transform: uppercase;
+}
+
+.container h2{
+	font-size: 30px;
+	margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container h3{
+	font-size: 26px;
+}
+
+.container p{
+	font-size: 21px;
+	font-weight: 300;
+	color: white;
+}
+
+.container hr{
+	border-top: 1px solid red;
+	width: 150px;
+	margin-top: 15px;
+}
+
+@media(max-width: 1199px;){
+	.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 991px;){
+	.jumbotron h1{
+		font-size: 44px;
+	}
+
+	.jumbotron p{
+		padding: 0 10px;
+	}
+
+	#Involved.col-md-4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media(max-width: 767px;){
+	.jumbotron h1{
+		font-size: 24px;
+	}
+
+	.jumbotron p{
+		padding: 0 10px;
+		font-size: 16px
+	}
+
+	.container p{
+		font-size: 18px
+	}
+
+	.btn-lg{
+		font-size: 18px
+	}
+
